@@ -1,0 +1,3 @@
+/opensource/demo/build/CMakeFiles/rebuild_cache.dir
+/opensource/demo/build/CMakeFiles/edit_cache.dir
+/opensource/demo/build/CMakeFiles/echo_server.dir

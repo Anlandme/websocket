@@ -1,0 +1,3 @@
+/opensource/demo/websocket_server/build/CMakeFiles/rebuild_cache.dir
+/opensource/demo/websocket_server/build/CMakeFiles/edit_cache.dir
+/opensource/demo/websocket_server/build/CMakeFiles/echo_server.dir
