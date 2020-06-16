@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opensource/demo
+CMAKE_SOURCE_DIR = /opensource/websocket/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opensource/demo/build
+CMAKE_BINARY_DIR = /opensource/websocket/demo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/echo_server.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/echo_server.dir/flags.make
 
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.o: CMakeFiles/echo_server.dir/flags.make
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.o: ../WebsocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/WebsocketServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/WebsocketServer.cpp.o -c /opensource/demo/WebsocketServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/websocket/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/WebsocketServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/WebsocketServer.cpp.o -c /opensource/websocket/demo/WebsocketServer.cpp
 
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/WebsocketServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/demo/WebsocketServer.cpp > CMakeFiles/echo_server.dir/WebsocketServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/websocket/demo/WebsocketServer.cpp > CMakeFiles/echo_server.dir/WebsocketServer.cpp.i
 
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/WebsocketServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/demo/WebsocketServer.cpp -o CMakeFiles/echo_server.dir/WebsocketServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/websocket/demo/WebsocketServer.cpp -o CMakeFiles/echo_server.dir/WebsocketServer.cpp.s
 
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.o.requires:
 
@@ -81,18 +81,66 @@ CMakeFiles/echo_server.dir/WebsocketServer.cpp.o.provides: CMakeFiles/echo_serve
 CMakeFiles/echo_server.dir/WebsocketServer.cpp.o.provides.build: CMakeFiles/echo_server.dir/WebsocketServer.cpp.o
 
 
+CMakeFiles/echo_server.dir/esr.cpp.o: CMakeFiles/echo_server.dir/flags.make
+CMakeFiles/echo_server.dir/esr.cpp.o: ../esr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/websocket/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/esr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/esr.cpp.o -c /opensource/websocket/demo/esr.cpp
+
+CMakeFiles/echo_server.dir/esr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/esr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/websocket/demo/esr.cpp > CMakeFiles/echo_server.dir/esr.cpp.i
+
+CMakeFiles/echo_server.dir/esr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/esr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/websocket/demo/esr.cpp -o CMakeFiles/echo_server.dir/esr.cpp.s
+
+CMakeFiles/echo_server.dir/esr.cpp.o.requires:
+
+.PHONY : CMakeFiles/echo_server.dir/esr.cpp.o.requires
+
+CMakeFiles/echo_server.dir/esr.cpp.o.provides: CMakeFiles/echo_server.dir/esr.cpp.o.requires
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/esr.cpp.o.provides.build
+.PHONY : CMakeFiles/echo_server.dir/esr.cpp.o.provides
+
+CMakeFiles/echo_server.dir/esr.cpp.o.provides.build: CMakeFiles/echo_server.dir/esr.cpp.o
+
+
+CMakeFiles/echo_server.dir/handler.cpp.o: CMakeFiles/echo_server.dir/flags.make
+CMakeFiles/echo_server.dir/handler.cpp.o: ../handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/websocket/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/echo_server.dir/handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/handler.cpp.o -c /opensource/websocket/demo/handler.cpp
+
+CMakeFiles/echo_server.dir/handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/handler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/websocket/demo/handler.cpp > CMakeFiles/echo_server.dir/handler.cpp.i
+
+CMakeFiles/echo_server.dir/handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/handler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/websocket/demo/handler.cpp -o CMakeFiles/echo_server.dir/handler.cpp.s
+
+CMakeFiles/echo_server.dir/handler.cpp.o.requires:
+
+.PHONY : CMakeFiles/echo_server.dir/handler.cpp.o.requires
+
+CMakeFiles/echo_server.dir/handler.cpp.o.provides: CMakeFiles/echo_server.dir/handler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/handler.cpp.o.provides.build
+.PHONY : CMakeFiles/echo_server.dir/handler.cpp.o.provides
+
+CMakeFiles/echo_server.dir/handler.cpp.o.provides.build: CMakeFiles/echo_server.dir/handler.cpp.o
+
+
 CMakeFiles/echo_server.dir/main.cpp.o: CMakeFiles/echo_server.dir/flags.make
 CMakeFiles/echo_server.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/main.cpp.o -c /opensource/demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opensource/websocket/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/echo_server.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/echo_server.dir/main.cpp.o -c /opensource/websocket/demo/main.cpp
 
 CMakeFiles/echo_server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/demo/main.cpp > CMakeFiles/echo_server.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opensource/websocket/demo/main.cpp > CMakeFiles/echo_server.dir/main.cpp.i
 
 CMakeFiles/echo_server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/demo/main.cpp -o CMakeFiles/echo_server.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opensource/websocket/demo/main.cpp -o CMakeFiles/echo_server.dir/main.cpp.s
 
 CMakeFiles/echo_server.dir/main.cpp.o.requires:
 
@@ -108,19 +156,23 @@ CMakeFiles/echo_server.dir/main.cpp.o.provides.build: CMakeFiles/echo_server.dir
 # Object files for target echo_server
 echo_server_OBJECTS = \
 "CMakeFiles/echo_server.dir/WebsocketServer.cpp.o" \
+"CMakeFiles/echo_server.dir/esr.cpp.o" \
+"CMakeFiles/echo_server.dir/handler.cpp.o" \
 "CMakeFiles/echo_server.dir/main.cpp.o"
 
 # External object files for target echo_server
 echo_server_EXTERNAL_OBJECTS =
 
 echo_server: CMakeFiles/echo_server.dir/WebsocketServer.cpp.o
+echo_server: CMakeFiles/echo_server.dir/esr.cpp.o
+echo_server: CMakeFiles/echo_server.dir/handler.cpp.o
 echo_server: CMakeFiles/echo_server.dir/main.cpp.o
 echo_server: CMakeFiles/echo_server.dir/build.make
 echo_server: /usr/local/lib/libboost_chrono.a
 echo_server: /usr/local/lib/libboost_system.a
 echo_server: /usr/local/lib/libboost_random.a
 echo_server: CMakeFiles/echo_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opensource/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opensource/websocket/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable echo_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/echo_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +181,8 @@ CMakeFiles/echo_server.dir/build: echo_server
 .PHONY : CMakeFiles/echo_server.dir/build
 
 CMakeFiles/echo_server.dir/requires: CMakeFiles/echo_server.dir/WebsocketServer.cpp.o.requires
+CMakeFiles/echo_server.dir/requires: CMakeFiles/echo_server.dir/esr.cpp.o.requires
+CMakeFiles/echo_server.dir/requires: CMakeFiles/echo_server.dir/handler.cpp.o.requires
 CMakeFiles/echo_server.dir/requires: CMakeFiles/echo_server.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/echo_server.dir/requires
@@ -138,6 +192,6 @@ CMakeFiles/echo_server.dir/clean:
 .PHONY : CMakeFiles/echo_server.dir/clean
 
 CMakeFiles/echo_server.dir/depend:
-	cd /opensource/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opensource/demo /opensource/demo /opensource/demo/build /opensource/demo/build /opensource/demo/build/CMakeFiles/echo_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opensource/websocket/demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opensource/websocket/demo /opensource/websocket/demo /opensource/websocket/demo/build /opensource/websocket/demo/build /opensource/websocket/demo/build/CMakeFiles/echo_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/echo_server.dir/depend
 

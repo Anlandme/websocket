@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/echo_server.dir/WebsocketServer.cpp.o"
+  "CMakeFiles/echo_server.dir/esr.cpp.o"
+  "CMakeFiles/echo_server.dir/handler.cpp.o"
   "CMakeFiles/echo_server.dir/main.cpp.o"
   "echo_server.pdb"
   "echo_server"

@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/opensource/demo/WebsocketServer.cpp" "/opensource/demo/build/CMakeFiles/echo_server.dir/WebsocketServer.cpp.o"
-  "/opensource/demo/main.cpp" "/opensource/demo/build/CMakeFiles/echo_server.dir/main.cpp.o"
+  "/opensource/websocket/demo/WebsocketServer.cpp" "/opensource/websocket/demo/build/CMakeFiles/echo_server.dir/WebsocketServer.cpp.o"
+  "/opensource/websocket/demo/esr.cpp" "/opensource/websocket/demo/build/CMakeFiles/echo_server.dir/esr.cpp.o"
+  "/opensource/websocket/demo/handler.cpp" "/opensource/websocket/demo/build/CMakeFiles/echo_server.dir/handler.cpp.o"
+  "/opensource/websocket/demo/main.cpp" "/opensource/websocket/demo/build/CMakeFiles/echo_server.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opensource/demo
+CMAKE_SOURCE_DIR = /opensource/websocket/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opensource/demo/build
+CMAKE_BINARY_DIR = /opensource/websocket/demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /opensource/demo/build/CMakeFiles /opensource/demo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opensource/websocket/demo/build/CMakeFiles /opensource/websocket/demo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /opensource/demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opensource/websocket/demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,60 @@ WebsocketServer.cpp.s:
 	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/WebsocketServer.cpp.s
 .PHONY : WebsocketServer.cpp.s
 
+esr.o: esr.cpp.o
+
+.PHONY : esr.o
+
+# target to build an object file
+esr.cpp.o:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/esr.cpp.o
+.PHONY : esr.cpp.o
+
+esr.i: esr.cpp.i
+
+.PHONY : esr.i
+
+# target to preprocess a source file
+esr.cpp.i:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/esr.cpp.i
+.PHONY : esr.cpp.i
+
+esr.s: esr.cpp.s
+
+.PHONY : esr.s
+
+# target to generate assembly for a file
+esr.cpp.s:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/esr.cpp.s
+.PHONY : esr.cpp.s
+
+handler.o: handler.cpp.o
+
+.PHONY : handler.o
+
+# target to build an object file
+handler.cpp.o:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/handler.cpp.o
+.PHONY : handler.cpp.o
+
+handler.i: handler.cpp.i
+
+.PHONY : handler.i
+
+# target to preprocess a source file
+handler.cpp.i:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/handler.cpp.i
+.PHONY : handler.cpp.i
+
+handler.s: handler.cpp.s
+
+.PHONY : handler.s
+
+# target to generate assembly for a file
+handler.cpp.s:
+	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/handler.cpp.s
+.PHONY : handler.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +243,12 @@ help:
 	@echo "... WebsocketServer.o"
 	@echo "... WebsocketServer.i"
 	@echo "... WebsocketServer.s"
+	@echo "... esr.o"
+	@echo "... esr.i"
+	@echo "... esr.s"
+	@echo "... handler.o"
+	@echo "... handler.i"
+	@echo "... handler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

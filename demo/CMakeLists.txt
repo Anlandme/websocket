@@ -21,4 +21,4 @@ set(LIBRARYS ${BOOST_LIB_DIR}/libboost_chrono.a ${BOOST_LIB_DIR}/libboost_system
 add_executable(${TARGET_NAME} ${DIR_SRCS})
 
 # Á´½Ó¿â
-target_link_libraries(${TARGET_NAME} ${LIBRARYS} -lpthread -lrt)
+target_link_libraries(${TARGET_NAME} ${LIBRARYS} -lpthread -lrt -ldl)

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opensource/demo/. -I/opensource/websocketpp-master -I/usr/local/boost/include -I/usr/local/boost/include/boost 
+CXX_INCLUDES = -I/opensource/websocket/demo/. -I/opensource/websocketpp-master -I/usr/local/boost/include -I/usr/local/boost/include/boost 
 

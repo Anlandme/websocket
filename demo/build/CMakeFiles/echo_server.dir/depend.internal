@@ -67,9 +67,16 @@ CMakeFiles/echo_server.dir/WebsocketServer.cpp.o
  .././websocketpp/utf8_validator.hpp
  .././websocketpp/utilities.hpp
  .././websocketpp/version.hpp
- /opensource/demo/WebsocketServer.cpp
- /opensource/demo/WebsocketServer.h
-CMakeFiles/echo_server.dir/main.cpp.o
+ /opensource/websocket/demo/WebsocketServer.cpp
+ /opensource/websocket/demo/WebsocketServer.h
+CMakeFiles/echo_server.dir/esr.cpp.o
+ /opensource/websocket/demo/esr.cpp
+ /opensource/websocket/demo/include/esr/errcode_module.h
+ /opensource/websocket/demo/include/esr/esr_api.h
+ /opensource/websocket/demo/include/esr/esr_err.h
+ /opensource/websocket/demo/include/esr/esr_type.h
+ /opensource/websocket/demo/include/esr/isr_defines.h
+CMakeFiles/echo_server.dir/handler.cpp.o
  .././websocketpp/base64/base64.hpp
  .././websocketpp/close.hpp
  .././websocketpp/common/asio.hpp
@@ -135,5 +142,12 @@ CMakeFiles/echo_server.dir/main.cpp.o
  .././websocketpp/utf8_validator.hpp
  .././websocketpp/utilities.hpp
  .././websocketpp/version.hpp
- /opensource/demo/WebsocketServer.h
- /opensource/demo/main.cpp
+ /opensource/websocket/demo/WebsocketServer.h
+ /opensource/websocket/demo/define.h
+ /opensource/websocket/demo/handler.cpp
+ /opensource/websocket/demo/include/esr/errcode_module.h
+ /opensource/websocket/demo/include/esr/esr_api.h
+ /opensource/websocket/demo/include/esr/esr_err.h
+ /opensource/websocket/demo/include/esr/esr_type.h
+CMakeFiles/echo_server.dir/main.cpp.o
+ /opensource/websocket/demo/main.cpp
