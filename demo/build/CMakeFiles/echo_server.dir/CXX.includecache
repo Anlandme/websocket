@@ -801,6 +801,8 @@ include/esr/esr_api.h
 /opensource/websocket/demo/esr.cpp
 stdio.h
 -
+iostream
+-
 include/esr/esr_api.h
 /opensource/websocket/demo/include/esr/esr_api.h
 include/esr/isr_defines.h

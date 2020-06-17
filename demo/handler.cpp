@@ -83,8 +83,24 @@ void on_message_handle(server* s, websocketpp::connection_hdl hdl, message_ptr m
 	printf("ip----------------------->%s\n",it->second.ip);
 	printf("res----------------------->%s\n",it->second.res);
 #endif
+	std::string result;
 	write_esr(it->second.esr_inst,msg->get_payload().c_str(),msg->get_payload().size(),ESR_AUDIO_CONTINUE);
-	read_esr(it->second.esr_inst);
+	read_esr(it->second.esr_inst,result);
+
+#if 0
+	std::remove(result.begin(), result.end(), '\r');
+	std::remove(result.begin(), result.end(), '\n');
+	std::remove(result.begin(), result.end(), '<');
+	std::remove(result.begin(), result.end(), '>');
+#endif
+	if(result.size()>0)
+	{
+		s->send(hdl,result.c_str(),websocketpp::frame::opcode::binary);
+	//	std::cout<<"result"<<result;
+	}
+
+
+	result.clear();
 }
 
 void do_sm()

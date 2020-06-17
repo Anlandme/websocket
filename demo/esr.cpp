@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include <iostream>
+
 #include "include/esr/esr_api.h"
 #include "include/esr/isr_defines.h"
+
+
+using namespace std;
 
 #define HMODULE void*
 
@@ -79,10 +84,30 @@ int ESRInit()
 		return -1;
 	}
 	char versionStr[16] = {0};
+
+
+
 	pEsrMgr->wEsrGetParameter("wesr_param_engine_version", versionStr, sizeof(versionStr));
 	printf("Engine Version:%s\n",versionStr);
 	pEsrMgr->wEsrSetParameter("wdec_param_decoderNetType","wfst_fsa");//"wfst_fsa"
 	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrInitialize_);
+
+bool temp;
+
+pEsrMgr->wEsrGetParameter("wesr_param_bVadOn",(char*)&temp,5);
+printf("vad:%d\n",temp);
+
+bool flag= false;
+
+	pEsrMgr->wEsrSetParameter("wesr_param_bVadOn",(char*)&flag);
+	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrSetParameter);
+
+
+
+pEsrMgr->wEsrGetParameter("wesr_param_bVadOn",(char*)&temp,5);
+printf("vad:%d\n",temp);
+
+
 	unsigned int res_size = get_file_length(acmodelRes);
 	ret =pEsrMgr->wEsrResourceAdd(resSet[0],acmodelRes,"FromFile",0,res_size,NULL,0);
 	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrResourceAdd);
@@ -124,14 +149,14 @@ int write_esr(pEsrInstBase esrinst,const char* audio,int len,ESR_AUDIO_STATUS st
 	return esrinst->wEsrWrite(audio,len,status);
 }
 
-int read_esr(pEsrInstBase esrinst)
+int read_esr(pEsrInstBase esrinst,std::string &result)
 {
 	EsrResult* rec_result;
 
 
 
 	//esrinst->wEsrGetResult( &rec_result, "pgs,plain,readable,htk");
-esrinst->wEsrGetResult( &rec_result, "htk");
+esrinst->wEsrGetResult( &rec_result, "plain");
 
 
 	if( rec_result->elem_count == 0)
@@ -144,6 +169,8 @@ esrinst->wEsrGetResult( &rec_result, "htk");
 		for (j = 0;j < rec_result->elem_count ; j++)
 		{
 			printf("value: %s\n", rec_result->elems[j].value);
+result.append(rec_result->elems[j].value);
+
 		} 
 	}
 
