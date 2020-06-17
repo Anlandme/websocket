@@ -806,6 +806,8 @@ include/esr/esr_api.h
 include/esr/isr_defines.h
 /opensource/websocket/demo/include/esr/isr_defines.h
 
+/opensource/websocket/demo/esr.h
+
 /opensource/websocket/demo/handler.cpp
 iostream
 -
@@ -813,6 +815,8 @@ WebsocketServer.h
 /opensource/websocket/demo/WebsocketServer.h
 define.h
 /opensource/websocket/demo/define.h
+esr.h
+/opensource/websocket/demo/esr.h
 
 /opensource/websocket/demo/include/esr/errcode_module.h
 

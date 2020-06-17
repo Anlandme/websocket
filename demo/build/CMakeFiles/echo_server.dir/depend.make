@@ -143,6 +143,7 @@ CMakeFiles/echo_server.dir/handler.cpp.o: .././websocketpp/utilities.hpp
 CMakeFiles/echo_server.dir/handler.cpp.o: .././websocketpp/version.hpp
 CMakeFiles/echo_server.dir/handler.cpp.o: ../WebsocketServer.h
 CMakeFiles/echo_server.dir/handler.cpp.o: ../define.h
+CMakeFiles/echo_server.dir/handler.cpp.o: ../esr.h
 CMakeFiles/echo_server.dir/handler.cpp.o: ../handler.cpp
 CMakeFiles/echo_server.dir/handler.cpp.o: ../include/esr/errcode_module.h
 CMakeFiles/echo_server.dir/handler.cpp.o: ../include/esr/esr_api.h

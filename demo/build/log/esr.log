@@ -1,0 +1,585 @@
+============================================================
+Log file created at: 2020/06/16 19:26:42
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-19:26:42 182][Tx02763] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-19:26:42 511][Tx02763] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-19:26:42 511][Tx02763] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-19:26:42 516][Tx02763] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:28:55
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:28:55 758][Tx03213] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:28:56 003][Tx03213] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:28:56 004][Tx03213] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:28:56 008][Tx03213] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:31:02
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:31:02 190][Tx03317] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:31:02 436][Tx03317] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:31:02 436][Tx03317] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:31:02 440][Tx03317] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:31:41
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:31:41 640][Tx03380] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:31:41 887][Tx03380] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:31:41 887][Tx03380] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:31:41 892][Tx03380] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:33:01
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:33:01 042][Tx03487] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:33:01 288][Tx03487] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:33:01 288][Tx03487] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:33:01 292][Tx03487] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:33:22
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:33:22 020][Tx03549] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:33:22 261][Tx03549] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:33:22 261][Tx03549] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:33:22 265][Tx03549] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:34:48
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:34:48 159][Tx03729] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:34:48 404][Tx03729] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:34:48 404][Tx03729] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:34:48 408][Tx03729] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 20:37:37
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-20:37:37 454][Tx03833] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-20:37:37 711][Tx03833] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-20:37:37 711][Tx03833] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-20:37:37 715][Tx03833] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:15:41
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:15:41 361][Tx03986] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:15:41 617][Tx03986] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:15:41 618][Tx03986] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:15:41 623][Tx03986] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:15:57
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:15:57 344][Tx04049] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:15:57 636][Tx04049] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:15:57 636][Tx04049] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:15:57 643][Tx04049] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:16:22
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:16:22 127][Tx04111] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:16:22 473][Tx04111] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:16:22 473][Tx04111] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:16:22 482][Tx04111] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:30
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:30 112][Tx04201] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:30 371][Tx04201] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:30 371][Tx04201] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:30 375][Tx04201] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:45
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:45 415][Tx04263] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:45 685][Tx04263] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:45 685][Tx04263] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:45 690][Tx04263] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:47
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:47 469][Tx04325] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:47 729][Tx04325] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:47 729][Tx04325] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:47 732][Tx04325] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:48
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:48 449][Tx04387] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:48 714][Tx04387] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:48 714][Tx04387] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:48 718][Tx04387] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:49
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:49 465][Tx04449] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:49 719][Tx04449] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:49 719][Tx04449] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:49 723][Tx04449] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:50
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:50 935][Tx04511] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:51 195][Tx04511] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:51 195][Tx04511] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:51 199][Tx04511] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:52
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:52 212][Tx04573] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:52 482][Tx04573] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:52 483][Tx04573] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:52 489][Tx04573] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:53
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:53 393][Tx04635] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:53 673][Tx04635] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:53 673][Tx04635] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:53 680][Tx04635] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:54
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:54 812][Tx04697] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:55 098][Tx04697] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:55 098][Tx04697] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:55 101][Tx04697] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:22:56
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:22:56 006][Tx04759] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:22:56 301][Tx04759] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:22:56 302][Tx04759] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:22:56 307][Tx04759] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:23:42
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:23:42 009][Tx04821] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:23:42 262][Tx04821] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:23:42 262][Tx04821] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:23:42 268][Tx04821] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:25:36
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:25:36 054][Tx04908] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:25:36 299][Tx04908] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:25:36 299][Tx04908] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:25:36 303][Tx04908] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:26:59
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:26:59 969][Tx05060] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:27:00 220][Tx05060] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:27:00 220][Tx05060] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:27:00 224][Tx05060] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/16 21:27:50
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/16-21:27:50 276][Tx05144] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/16-21:27:50 523][Tx05144] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/16-21:27:50 523][Tx05144] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/16-21:27:50 526][Tx05144] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:10
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:10 051][Tx05394] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:10 322][Tx05394] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:10 322][Tx05394] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:10 327][Tx05394] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:12
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:12 530][Tx05456] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:12 794][Tx05456] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:12 794][Tx05456] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:12 798][Tx05456] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:18
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:18 618][Tx05520] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:18 868][Tx05520] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:18 868][Tx05520] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:18 877][Tx05520] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:21
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:21 138][Tx05582] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:21 395][Tx05582] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:21 395][Tx05582] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:21 400][Tx05582] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:23
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:23 145][Tx05645] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:23 399][Tx05645] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:23 399][Tx05645] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:23 403][Tx05645] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:24
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:24 881][Tx05707] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:25 152][Tx05707] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:25 152][Tx05707] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:25 158][Tx05707] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:25
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:25 936][Tx05769] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:26 200][Tx05769] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:26 200][Tx05769] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:26 204][Tx05769] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:27
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:27 064][Tx05831] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:27 329][Tx05831] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:27 330][Tx05831] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:27 334][Tx05831] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:28
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:28 129][Tx05893] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:28 396][Tx05893] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:28 397][Tx05893] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:28 404][Tx05893] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:29
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:29 047][Tx05955] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:29 298][Tx05955] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:29 298][Tx05955] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:29 303][Tx05955] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:29
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:29 977][Tx06017] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:30 232][Tx06017] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:30 232][Tx06017] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:30 238][Tx06017] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:30
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:30 990][Tx06079] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:31 240][Tx06079] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:31 240][Tx06079] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:31 246][Tx06079] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:31
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:31 992][Tx06141] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:32 292][Tx06141] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:32 292][Tx06141] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:32 297][Tx06141] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:32
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:32 977][Tx06203] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:33 239][Tx06203] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:33 239][Tx06203] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:33 244][Tx06203] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:34
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:34 946][Tx06265] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:35 213][Tx06265] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:35 213][Tx06265] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:35 217][Tx06265] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:36
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:36 061][Tx06327] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:36 314][Tx06327] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:36 314][Tx06327] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:36 320][Tx06327] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:37
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:37 073][Tx06389] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:37 328][Tx06389] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:37 328][Tx06389] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:37 332][Tx06389] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:38
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:38 130][Tx06451] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:38 398][Tx06451] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:38 399][Tx06451] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:38 403][Tx06451] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:39
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:39 149][Tx06513] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:39 415][Tx06513] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:39 415][Tx06513] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:39 421][Tx06513] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:40
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:40 112][Tx06575] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:40 380][Tx06575] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:40 381][Tx06575] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:40 386][Tx06575] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:41
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:41 075][Tx06637] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:41 340][Tx06637] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:41 340][Tx06637] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:41 347][Tx06637] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:41
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:41 999][Tx06699] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:42 255][Tx06699] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:42 255][Tx06699] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:42 260][Tx06699] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:42
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:42 983][Tx06761] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:43 245][Tx06761] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:43 245][Tx06761] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:43 250][Tx06761] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:43
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:43 852][Tx06823] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:44 109][Tx06823] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:44 109][Tx06823] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:44 113][Tx06823] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:44
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:44 766][Tx06885] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:45 036][Tx06885] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:45 036][Tx06885] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:45 039][Tx06885] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:29:59
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:29:59 238][Tx06947] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:29:59 509][Tx06947] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:29:59 509][Tx06947] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:29:59 514][Tx06947] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:30:39
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:30:39 797][Tx07010] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:30:40 065][Tx07010] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:30:40 065][Tx07010] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:30:40 071][Tx07010] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:31:54
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:31:54 320][Tx07073] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:31:54 570][Tx07073] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:31:54 571][Tx07073] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:31:54 575][Tx07073] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:32:27
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:32:27 455][Tx07157] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:32:27 705][Tx07157] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:32:27 706][Tx07157] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:32:27 710][Tx07157] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:33:45
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:33:45 895][Tx07219] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:33:46 167][Tx07219] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:33:46 167][Tx07219] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:33:46 173][Tx07219] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:34:19
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:34:19 600][Tx07303] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:34:19 871][Tx07303] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:34:19 871][Tx07303] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:34:19 875][Tx07303] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:35:12
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:35:12 266][Tx07366] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:35:12 537][Tx07366] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:35:12 537][Tx07366] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:35:12 541][Tx07366] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:35:14
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:35:14 678][Tx07428] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:35:14 929][Tx07428] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:35:14 930][Tx07428] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:35:14 934][Tx07428] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:35:16
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:35:16 767][Tx07490] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:35:17 020][Tx07490] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:35:17 020][Tx07490] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:35:17 024][Tx07490] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:35:19
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:35:19 198][Tx07552] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:35:19 443][Tx07552] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:35:19 443][Tx07552] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:35:19 447][Tx07552] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 00:45:08
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-00:45:08 059][Tx07647] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-00:45:08 305][Tx07647] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-00:45:08 305][Tx07647] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-00:45:08 310][Tx07647] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 01:45:40
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-01:45:40 594][Tx07761] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-01:45:40 861][Tx07761] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-01:45:40 861][Tx07761] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-01:45:40 865][Tx07761] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 01:49:27
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-01:49:27 567][Tx07836] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-01:49:27 815][Tx07836] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-01:49:27 815][Tx07836] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-01:49:27 822][Tx07836] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 02:08:19
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-02:08:19 381][Tx07953] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-02:08:19 626][Tx07953] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-02:08:19 626][Tx07953] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-02:08:19 630][Tx07953] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 
+============================================================
+Log file created at: 2020/06/17 02:11:29
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.mmm threadid: msg
+============================================================
+[ERROR][2020/06/17-02:11:29 954][Tx08039] Cannot process postproc, config file don't exist.
+[WARNING][2020/06/17-02:11:30 200][Tx08039] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 孮/指 must be in the dict!
+[WARNING][2020/06/17-02:11:30 200][Tx08039] Error: Word2IdTable | splitWordWithSWprocess : never happen here, because the word 盤/销 must be in the dict!
+[WARNING][2020/06/17-02:11:30 204][Tx08039] PersonalSortTable::check_hotword_item | invalid line in Perfonal file, there have ivalie character, line =切换超一百 

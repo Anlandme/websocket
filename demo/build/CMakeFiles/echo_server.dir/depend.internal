@@ -144,6 +144,7 @@ CMakeFiles/echo_server.dir/handler.cpp.o
  .././websocketpp/version.hpp
  /opensource/websocket/demo/WebsocketServer.h
  /opensource/websocket/demo/define.h
+ /opensource/websocket/demo/esr.h
  /opensource/websocket/demo/handler.cpp
  /opensource/websocket/demo/include/esr/errcode_module.h
  /opensource/websocket/demo/include/esr/esr_api.h

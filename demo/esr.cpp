@@ -4,7 +4,7 @@
 
 #define HMODULE void*
 
-char* EsrLicense;
+char EsrLicense[] = "5760ca771900a880";
 
 #define CHECK_FUNC_IF_SUCCESS(exp,func) if(!exp)\
 {\
@@ -106,8 +106,49 @@ int ESRInit()
 	ret =pEsrMgr->wEsrResourceAdd(resSet[4],hotRes,"FromFile",0,res_size,&resSet[1],1);
 	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrResourceAdd);
 
-
 	return 0;
+}
+
+int create_esr(pEsrInstBase* esrinst)
+{
+	return pEsrMgr->wEsrCreate(esrinst);
+}
+
+int start_esr(pEsrInstBase esrinst)
+{
+	return esrinst->wEsrStart(decSet,decReslen-1);
+}
+
+int write_esr(pEsrInstBase esrinst,const char* audio,int len,ESR_AUDIO_STATUS status)
+{
+	return esrinst->wEsrWrite(audio,len,status);
+}
+
+int read_esr(pEsrInstBase esrinst)
+{
+	EsrResult* rec_result;
+
+
+
+	//esrinst->wEsrGetResult( &rec_result, "pgs,plain,readable,htk");
+esrinst->wEsrGetResult( &rec_result, "htk");
+
+
+	if( rec_result->elem_count == 0)
+	{
+		//		printf("no result");
+	}
+	else
+	{
+		int j = 0;
+		for (j = 0;j < rec_result->elem_count ; j++)
+		{
+			printf("value: %s\n", rec_result->elems[j].value);
+		} 
+	}
+
+
+
 }
 
 
