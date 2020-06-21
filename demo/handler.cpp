@@ -73,19 +73,24 @@ void on_fail_handle(server* s, websocketpp::connection_hdl hdl)
 }
 void on_message_handle(server* s, websocketpp::connection_hdl hdl, message_ptr msg)
 {
+	int ret = 0;
+	std::string result;
 
 	//get esr inst
 	std::map<websocketpp::connection_hdl,connection_info_t>::iterator it;
-
 	it =  connection_info_map.find(hdl);
 
 #if 0	
 	printf("ip----------------------->%s\n",it->second.ip);
 	printf("res----------------------->%s\n",it->second.res);
 #endif
-	std::string result;
-	write_esr(it->second.esr_inst,msg->get_payload().c_str(),msg->get_payload().size(),ESR_AUDIO_CONTINUE);
-	read_esr(it->second.esr_inst,result);
+
+	ret = write_esr(it->second.esr_inst,msg->get_payload().c_str(),msg->get_payload().size(),ESR_AUDIO_CONTINUE);
+	//printf("write count:%d\n",ret):
+
+
+
+	ret = read_esr(it->second.esr_inst,result);
 
 #if 0
 	std::remove(result.begin(), result.end(), '\r');
@@ -93,14 +98,46 @@ void on_message_handle(server* s, websocketpp::connection_hdl hdl, message_ptr m
 	std::remove(result.begin(), result.end(), '<');
 	std::remove(result.begin(), result.end(), '>');
 #endif
-	if(result.size()>0)
+
+	if(0 == ret)
 	{
-		s->send(hdl,result.c_str(),websocketpp::frame::opcode::binary);
-	//	std::cout<<"result"<<result;
+		return;
 	}
 
+	if(result.size()>0)
+	{
+#if 0
+		std::remove(result.begin(), result.end(), '\r');
+		std::remove(result.begin(), result.end(), '\n');
+		std::remove(result.begin(), result.end(), '<');
+		std::remove(result.begin(), result.end(), '>');
+		std::remove(result.begin(), result.end(), 's');
+		std::remove(result.begin(), result.end(), '/');
+#endif
+		s->send(hdl,result.c_str(),websocketpp::frame::opcode::binary);
+//		printf("result:%s\n",result.c_str());
 
-	result.clear();
+		result.clear();
+
+		//the engine is stop
+		if(2 == ret)
+		{
+//			printf("--------------------->\n");
+			ret = stop_esr(it->second.esr_inst);
+			ret = start_esr(it->second.esr_inst);
+
+			if(0!=ret)
+			{
+				printf("esr start failed!\n");
+				return;
+			}
+
+			//must!tell the engine start do esr
+			char temp[1024] = {0};
+			write_esr(it->second.esr_inst,temp,1024,ESR_AUDIO_BEGIN);
+		}
+	}
+
 }
 
 void do_sm()

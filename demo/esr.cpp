@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <iostream>
 
 #include "include/esr/esr_api.h"
@@ -92,20 +93,10 @@ int ESRInit()
 	pEsrMgr->wEsrSetParameter("wdec_param_decoderNetType","wfst_fsa");//"wfst_fsa"
 	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrInitialize_);
 
-bool temp;
-
-pEsrMgr->wEsrGetParameter("wesr_param_bVadOn",(char*)&temp,5);
-printf("vad:%d\n",temp);
-
-bool flag= false;
-
-	pEsrMgr->wEsrSetParameter("wesr_param_bVadOn",(char*)&flag);
-	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrSetParameter);
 
 
 
-pEsrMgr->wEsrGetParameter("wesr_param_bVadOn",(char*)&temp,5);
-printf("vad:%d\n",temp);
+
 
 
 	unsigned int res_size = get_file_length(acmodelRes);
@@ -131,6 +122,9 @@ printf("vad:%d\n",temp);
 	ret =pEsrMgr->wEsrResourceAdd(resSet[4],hotRes,"FromFile",0,res_size,&resSet[1],1);
 	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrResourceAdd);
 
+	pEsrMgr->wEsrSetParameter("wesr_param_bVadOn","0");
+	CHECK_FUNC_IF_SUCCESS(ret == ESR_SUCCESS,wEsrSetParameter);
+
 	return 0;
 }
 
@@ -144,6 +138,11 @@ int start_esr(pEsrInstBase esrinst)
 	return esrinst->wEsrStart(decSet,decReslen-1);
 }
 
+int stop_esr(pEsrInstBase esrinst)
+{
+	return esrinst->wEsrStop();
+}
+
 int write_esr(pEsrInstBase esrinst,const char* audio,int len,ESR_AUDIO_STATUS status)
 {
 	return esrinst->wEsrWrite(audio,len,status);
@@ -153,29 +152,39 @@ int read_esr(pEsrInstBase esrinst,std::string &result)
 {
 	EsrResult* rec_result;
 
-
-
 	//esrinst->wEsrGetResult( &rec_result, "pgs,plain,readable,htk");
-esrinst->wEsrGetResult( &rec_result, "plain");
+	//esrinst->wEsrGetResult( &rec_result, "pgs,plain");
+	//esrinst->wEsrGetResult( &rec_result, "pgs,plain");
+	esrinst->wEsrGetResult( &rec_result, "plain");
 
-
-	if( rec_result->elem_count == 0)
+	if( rec_result->elem_count)
 	{
-		//		printf("no result");
-	}
-	else
-	{
+#if 0
+		printf("count:----------------------->%d\n",rec_result->elem_count);
 		int j = 0;
 		for (j = 0;j < rec_result->elem_count ; j++)
 		{
+#if 1
 			printf("value: %s\n", rec_result->elems[j].value);
-result.append(rec_result->elems[j].value);
+			printf("key: %s\n", rec_result->elems[j].key);
+			printf("sub key: %s\n", rec_result->elems[j].sub_key);
+			printf("status: %d\n", rec_result->status);
+#endif
+			result.append(rec_result->elems[j].value);
 
-		} 
+			//if(0 == strcmp("plain",rec_result->elems[j].sub_key) && ESR_RESULT_FINISH  == rec_result->status)
+		}
+#endif
+
+		result.append(rec_result->elems[rec_result->elem_count-1].value);
 	}
 
+	return rec_result->status;
 
-
+	//return value:
+	//ESR_RESULT_NONE   0,
+	//ESR_RESULT_CONTINUE 1
+	//ESR_RESULT_FINISH  2
 }
 
 
